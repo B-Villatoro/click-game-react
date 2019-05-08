@@ -1,6 +1,12 @@
 [
     {
         "name": "duck1",
-        "id" : ""
+        "id" : "1",
+        "image": "/images/ducky.jpg"
+    },
+    {
+        "name": "duck2",
+        "id" : "2",
+        "image": "/images/ducky.jpg"
     }
 ]
