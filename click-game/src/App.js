@@ -1,24 +1,20 @@
-import React from 'react';
-import CharCard from "./components/charCard";
-import Characters from "./characters.json";
+import React, { Component } from 'react';
+import Home from "./pages/home.js"
+import Wrapper from "./components/wrapper"
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      {Characters.map((item)=>{
-        return (
-        <CharCard
-          key={item.id}
-          name={item.name}
-          image={item.image}
-        />
-      )
-      })}
+class App extends Component {
+ 
 
 
-    </div>
-  );
+  render() {
+    return (
+
+      <Wrapper>
+        <Home></Home>
+      </Wrapper>
+    );
+  }
 }
 
 export default App;

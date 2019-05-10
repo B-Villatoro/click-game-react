@@ -3,11 +3,7 @@ import React from "react";
 
 function CharacterCard(props) {
   return (
-    <div className="card" key={props.id}>
-      <div className="img-container">
-        <img alt={props.name} src={props.image} width="200" height="200"/>
-      </div>
-    </div>
+  <img className="ducky" alt={props.name} src={props.image} width="150" height="150" onClick={()=>props.handleClick(props.id) } value={props.clicked? "true":"false"}/>  
   );
 }
 

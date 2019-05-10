@@ -1,12 +1,56 @@
 [
     {
         "name": "duck1",
-        "id" : "1",
-        "image": "/images/ducky.jpg"
+        "id" : "0",
+        "image": "/images/ducky.jpg",
+        "clicked": false
     },
     {
         "name": "duck2",
+        "id" : "1",
+        "image": "/images/ducky.jpg",
+        "clicked": false
+    },
+    {
+        "name": "duck3",
         "id" : "2",
-        "image": "/images/ducky.jpg"
+        "image": "/images/ducky.jpg",
+        "clicked": false
+    },
+    {
+        "name": "duck4",
+        "id" : "3",
+        "image": "/images/ducky.jpg",
+        "clicked": false
+    },
+    {
+        "name": "duck5",
+        "id" : "4",
+        "image": "/images/ducky.jpg",
+        "clicked": false
+    },
+    {
+        "name": "duck6",
+        "id" : "5",
+        "image": "/images/ducky.jpg",
+        "clicked": false
+    },
+    {
+        "name": "duck7",
+        "id" : "6",
+        "image": "/images/ducky.jpg",
+        "clicked": false
+    },
+    {
+        "name": "duck8",
+        "id" : "7",
+        "image": "/images/ducky.jpg",
+        "clicked": false
+    },
+    {
+        "name": "duck9",
+        "id" : "8",
+        "image": "/images/ducky.jpg",
+        "clicked": false
     }
 ]
