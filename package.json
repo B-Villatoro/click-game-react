@@ -11,10 +11,10 @@
       "react-scripts": "3.0.0"
     },
     "scripts": {
-      "start": "react-scripts start",
-      "build": "react-scripts build",
-      "test": "react-scripts test",
-      "eject": "react-scripts eject"
+      "start": "cd click-game && react-scripts start",
+      "build": "cd click-game && react-scripts build",
+      "test": "cd click-game && react-scripts test",
+      "eject": "cd click-game && react-scripts eject"
     },
     "eslintConfig": {
       "extends": "react-app"
