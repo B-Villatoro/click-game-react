@@ -41,7 +41,7 @@ class Main extends React.Component {
         let Count = this.state.Count;
         let Best = this.state.Best;
         let Message = this.state.Message;
-        if (Count > Best && Count != 9){
+        if (Count > Best && Count !== 9){
             Best = Count
             Message = "You Beat Your Last Score!"
             this.resetChar(thingy)
